@@ -1,0 +1,239 @@
+@import url("https://use.typekit.net/fnp2qpe.css");
+
+
+.section.white-bg {
+    width: 100%;
+}
+.section.white-bg strong {
+    color: #40709a;
+}
+form#ruc-calc-form .form-control {
+    border: 1px solid #000;
+}
+form#ruc-calc-form label.error {
+    display: block;
+    position: absolute;
+    top: 35px;
+    color: #EA3F3F;
+}
+.de-calc {
+    color: #1e3948;
+    background-color: rgba(245, 245, 245, 0.5);
+    border-color: #d3e0e9;
+    margin-top: 22px;
+    margin-bottom: 50px;
+    border: 1px solid rgba(30, 57, 72, 0.3);
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+
+    font-family: "futura-pt", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 { font-family: "sofia-pro",sans-serif; }
+.de-calc-box {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+#ruc-calc-form h4 {
+    margin-bottom: 3px;
+}
+#totalPrice {
+    min-height: 125px;
+}
+.de-calc .input-group-addon {
+    border: 1px solid #000;
+}
+.de-calc a#findmpglink {
+  text-decoration: underline;
+}
+.de-calc .table>tbody>tr>td {
+    font-size: 18px;
+    font-weight: 200;
+}
+.de-calc .table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: rgba(249, 249, 249, 0.9);
+}
+.de-calc .table>thead>tr>th,
+.table-striped>tbody>tr {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.de-calc .table-responsive-js p {
+    font-size: 82.5%;
+}
+.de-calc .disclaimer-text {
+    letter-spacing: .05em;
+    font-size: 82.5%;
+}
+.city {
+    text-align: left;
+    margin: 0 5px 0 0;
+}
+.combMPGresult {
+    text-align: center;
+}
+.combined {
+    font-size: 30px;
+    font-weight: 500;
+    color: #003366;
+    padding: 0px;
+    text-align: left;
+    line-height: 1;
+    vertical-align: bottom;
+}
+.ctyhwy {
+    font-size: 25px;
+    font-weight: 400;
+    color: #003366;
+    padding: 0px;
+    text-align: left;
+    line-height: 1;
+    vertical-align: bottom;
+}
+.fuel1 {
+    width: 50%;
+    margin: 0 auto 0 auto;
+    line-height: 1;
+}
+.fueleconomy {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    margin: 0 0 .5em 0;
+}
+.fueleconomy-header {
+    font-size: 13px;
+    border-bottom: 1px solid #ccc;
+    background-color: #efefef;
+    font-weight: bold;
+    color: #333;
+    padding: 2px;
+}
+.fueltype {
+    font-size: 14px;
+    color: #003366;
+    font-weight: 600;
+}
+.fuelTypeVehicle {
+    background-color: #85b665;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px
+}
+table.results1 {
+    width: 75%;
+    margin: 7px auto 3px auto;
+    border-collapse: collapse;
+    line-height: 1;
+}
+table.results2 {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    border-collapse: collapse;
+    line-height: 1;
+}
+.results2 .unitsLabel,
+.results2 .combined {
+    padding-top: 8px;
+}
+.results2 td {
+    border: none;
+}
+.twofuels {
+    margin-top: 0px;
+    width: 25%;
+    text-align: right;
+    padding-right: 2px;
+    border-bottom: 1px solid #cccccc;
+}
+.unitsLabel {
+    font-size: 14px;
+    font-weight: 600;
+    color: #003366;
+    text-align: left;
+    line-height: .8;
+    vertical-align: top;
+    margin-bottom: 1px;
+}
+.context {
+    position: absolute;
+    left: -999em;
+    width: 1em;
+    overflow: hidden;
+}
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+  border: 1px solid #ddd;
+  border: 1px solid #2a2929;
+}
+
+div.table-responsive-js:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(1),
+div.table-responsive-js:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(5) > td:nth-child(1),
+div.table-responsive-js:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(7) > td:nth-child(1),
+div.table-responsive-js:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(9) > td:nth-child(1)  {
+    color: #1e3948;
+    font-family: "futura-pt", sans-serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+ }
+div.table-responsive-js:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(2),
+div.table-responsive-js:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > th:nth-child(3) 
+ {
+    font-size: 1.8rem;
+    color:#40709a;
+    line-height: 2rem;
+    
+ }
+
+ div.table-responsive-js:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(2),
+ div.table-responsive-js:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(3) > td:nth-child(3),
+ div.table-responsive-js:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(5) > td:nth-child(2),
+ div.table-responsive-js:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(7) > td:nth-child(3),
+ div.table-responsive-js:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(9) > td:nth-child(2),
+ div.table-responsive-js:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(9) > td:nth-child(3) {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+#totalPrice > h4:nth-child(2) {
+     color:#40709a;
+     font-family: "sofia-pro",sans-serif;
+     line-height: 2rem;
+     font-weight: bold;
+     text-align: center;
+    }
+
+    div.table-responsive-js:nth-child(1) > table:nth-child(1) {
+        margin: .9rem;
+        }
+
+        #de-calc-form > div:nth-child(8) > p:nth-child(1)
+        { margin-top: 4rem;
+            font-size: 1.3rem;}
+.calculate-it {
+  font-size: 2rem;
+  margin: 1rem;
+   margin-bottom: 2.5rem;
+    }
+
+span{
+    font-size: 1.3rem;
+
+}
+.ave{
+    font-style: italic;
+}
+@media (max-width: 991px) {
+    .calc-col-2 {
+        height: 100%;
+        padding-top: 4px;
+        padding-bottom: 185px;
+    }
+}
+@media (max-width: 768px) {
+    .calc-col-2 .input-group[class*="col-"] {
+        padding-left: 15px;
+    }
+}
